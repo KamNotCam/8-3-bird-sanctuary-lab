@@ -1,0 +1,20 @@
+#root {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    grid-template-rows: inherit;
+}
+
+.heading {
+    padding: 20px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 1;
+}
+
+.cart {
+    grid-row: 1;
+    grid-column: 2;
+}
